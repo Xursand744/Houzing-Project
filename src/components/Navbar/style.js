@@ -8,16 +8,23 @@ const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   `;
+const Main = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:var(--colorPrimary);
+  `;
 const Wrapper = styled.div`
-    background:var(--colorPrimary);
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     padding: var(--padding);
     height: 64px;
-    padding: 16px;
+    margin: 0 auto;
+    width: 100%;
     max-width: 1440px;
+    font-size: 16px;
 `;
 
 const Section = styled.div`
@@ -41,4 +48,4 @@ const Link = styled(NavLink)`
     padding: 0 32px;
 `;
 
-export { Container, Wrapper, Section, Logo, Link }
+export { Container, Wrapper, Section, Logo, Link, Main }
