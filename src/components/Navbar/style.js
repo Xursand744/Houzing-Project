@@ -48,4 +48,5 @@ const Link = styled(NavLink)`
     padding: 0 32px;
 `;
 
+
 export { Container, Wrapper, Section, Logo, Link, Main }
